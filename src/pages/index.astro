@@ -34,10 +34,16 @@ const projects = (await getCollection('work'))
 					tagline="Front develloper and web designer"
 					align="start"
 				>
-					<div class="roles">
-						<Pill><Icon icon="code" size="1.33em" /> Developer</Pill>
+					 <div class="roles">
+						<!-- <Pill><Icon icon="code" size="1.33em" /> Developer</Pill> -->
+				
+						<p>  Animé par la volonté de créer des expériences en ligne captivantes et conviviales. Mon parcours dans le domaine du développement web a commencé il y a peu, mais chaque ligne de code que je tape est empreinte de détermination et de curiosité.</p>	
+						<p>Mon engouement pour le design me pousse à explorer les dernières tendances et à m'inspirer de diverses sources pour créer des interfaces esthétiques et intuitives. Je crois fermement que le design et le développement sont deux faces d'une même pièce, et j'aspire à maîtriser les deux aspects pour offrir des produits web complets et réussis.</p>	
 						
-					</div>
+						<p><i> * Driven by the desire to create captivating and user-friendly online experiences. My journey in web development started recently, but every line of code I type is filled with determination and curiosity.</p>
+						<p>My passion for design pushes me to explore the latest trends and draw inspiration from various sources to create aesthetic and intuitive interfaces. I firmly believe that design and development are two sides of the same coin, and I aspire to master both aspects to deliver complete and successful web products.</i></p>
+							
+					</div> 
 				</Hero>
 
 				<img
@@ -115,6 +121,10 @@ const projects = (await getCollection('work'))
 
 	.roles {
 		display: none;
+		flex-direction: column;
+	}
+	.roles p {
+		font-size: 1.1rem;
 	}
 
 	.hero img {
