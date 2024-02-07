@@ -3,21 +3,31 @@ import Icon from './Icon.astro';
 ---
 
 <section class="box skills">
+
 	<div class="stack gap-2 lg:gap-4">
-		<Icon icon="terminal-window" color="var(--accent-regular)" size="2.5rem" gradient />
+		<!-- <Icon icon="terminal-window" color="var(--accent-regular)" size="2.5rem" gradient /> -->
 		<h2>Front-end</h2>
-		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.</p>
+			<div class="logoIcons">
+				<img class="techLogo" src="public/assets/sveltelogo.png" alt="svelte logo">			
+				<img class="techLogo" src="public/assets/htmllogo.png" alt="html logo">			
+				<img class="techLogo" src="public/assets/csslogo.png" alt="css logo">				
+			</div>
+			
 	</div>
-	<!-- <div class="stack gap-2 lg:gap-4">
-		<Icon icon="palette" color="var(--accent-regular)" size="2.5rem" gradient />
-		<h2>Web Designer</h2>
-		<p>Neque viverra justo nec ultrices dui. Est ultricies integer quis auctor elit.</p>
-	</div> -->
+
+	 <div class="stack gap-2 lg:gap-4">
+		<!-- <Icon icon="palette" color="var(--accent-regular)" size="2.5rem" gradient /> -->
+		<h2>Back-End</h2>
+		<img class="techLogo" src="public/assets/phplogo.png" alt="figma">
+	</div> 
+
 	<div class="stack gap-2 lg:gap-4">
-		<Icon icon="palette" color="var(--accent-regular)" size="2.5rem" gradient />
+		<!-- <Icon icon="palette" color="var(--accent-regular)" size="2.5rem" gradient /> -->
 		<h2>Web Design</h2>
-		<p>Neque viverra justo nec ultrices dui. Est ultricies integer quis auctor elit.</p>
+		<!-- <Icon icon="figma" color="var(--accent-regular)" size="2.5rem" gradient /> -->
+		<img class="techLogo" src="public/assets/figma logo.png" alt="figma logo">
 	</div>
+
 </section>
 
 <style>
@@ -58,5 +68,12 @@ import Icon from './Icon.astro';
 		.skills h2 {
 			font-size: var(--text-2xl);
 		}
+		.techLogo {
+			width: 7em;
+		}
+
+		
+
+		
 	}
 </style>
