@@ -10,7 +10,6 @@ tags:
   - Dev front-end
   - CMS Directus
   - Svelte 
-  - SCSS
   - HTML 
   - CSS / SASS
 

@@ -7,10 +7,24 @@ import Icon from './Icon.astro';
 	<div class="stack gap-2 lg:gap-4">
 		<!-- <Icon icon="terminal-window" color="var(--accent-regular)" size="2.5rem" gradient /> -->
 		<h2>Front-end</h2>
+
 			<div class="logoIcons">
-				<img class="techLogo" src="public/assets/sveltelogo.png" alt="svelte logo">			
-				<img class="techLogo" src="public/assets/htmllogo.png" alt="html logo">			
-				<img class="techLogo" src="public/assets/csslogo.png" alt="css logo">				
+				<div class="logoSec">
+					<img class="techLogo" src="public/assets/sveltelogo.png" alt="svelte logo">	
+					<h3>Svelte</h3>
+				</div>	
+				<div class="logoSec">
+					<img class="techLogo" src="public/assets/htmllogo.png" alt="html logo">	
+					<h3>HTML</h3>
+				</div>		
+				<div class="logoSec">
+					<img class="techLogo" src="public/assets/csslogo.png" alt="css logo">	
+					<h3>CSS</h3>
+				</div>	
+				<div class="logoSec">
+					<img class="techLogo" src="public/assets/jslogo.png" alt="javascript logo">	
+					<h3>JavaScript</h3>
+				</div>							
 			</div>
 			
 	</div>
@@ -18,14 +32,26 @@ import Icon from './Icon.astro';
 	 <div class="stack gap-2 lg:gap-4">
 		<!-- <Icon icon="palette" color="var(--accent-regular)" size="2.5rem" gradient /> -->
 		<h2>Back-End</h2>
-		<img class="techLogo" src="public/assets/phplogo.png" alt="figma">
+			<div class="logoIcons">
+				<div class="logoSecBe">
+					<img class="techLogo" src="public/assets/phplogo.png" alt="php logo">	
+					<h3>PHP</h3>
+				</div>
+				<div class="logoSecBe">
+					<img class="techLogo" src="public/assets/laravellogo.png" alt="laravel logo">	
+					<h3>Laravel</h3>
+				</div>	
+			</div>
 	</div> 
 
 	<div class="stack gap-2 lg:gap-4">
 		<!-- <Icon icon="palette" color="var(--accent-regular)" size="2.5rem" gradient /> -->
 		<h2>Web Design</h2>
 		<!-- <Icon icon="figma" color="var(--accent-regular)" size="2.5rem" gradient /> -->
-		<img class="techLogo" src="public/assets/figma logo.png" alt="figma logo">
+		<div class="logoSecWd">
+			<img class="techLogo" src="public/assets/figmalogo.png" alt="figma logo">	
+			<h3>Figma</h3>
+		</div>	
 	</div>
 
 </section>
@@ -67,12 +93,42 @@ import Icon from './Icon.astro';
 
 		.skills h2 {
 			font-size: var(--text-2xl);
+			margin-bottom: 15px;
 		}
 		.techLogo {
-			width: 7em;
+			width: 5em;
 		}
 
-		
+		.logoIcons {
+			display: flex;
+			flex-direction: row;
+			justify-content: space-evenly;
+		}
+
+		.logoSec {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			margin: 10px;
+		}
+
+		.logoSecWd {
+			display: flex;
+    		align-items: center;
+    		flex-direction: column;
+		}
+
+		.logoSecBe {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			margin: 10px;
+		}
+
+		h3 { 
+			font-size: 20px;
+			margin-top: 10px;
+		}
 
 		
 	}
