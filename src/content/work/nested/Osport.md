@@ -1,8 +1,8 @@
 ---
 title: O'sport
 publishDate: 2020-03-04 00:00:00
-img: /assets/o'blog accueil.png
-img_2: /assets/directus.png
+img: /JoffreyKeravecPortFolio/assets/o'blog accueil.png
+img_2: /JoffreyKeravecPortFolio/assets/directus.png
 img_alt: picture of o'sport application
 description: |
 tags:
