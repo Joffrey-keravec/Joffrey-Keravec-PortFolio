@@ -1,5 +1,5 @@
 ---
-title: Markdown Mystery Tour
+title: work in progress, soon available
 publishDate: 2020-03-02 00:00:00
 img: /JoffreyKeravecPortFolio/assets/stock-1.jpg
 img_2: /JoffreyKeravecPortFolio/assets/stock-1.jpg
