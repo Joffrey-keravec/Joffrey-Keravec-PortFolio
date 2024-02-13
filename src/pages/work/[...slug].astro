@@ -77,7 +77,8 @@ const { Content } = await entry.render();
 	}
 
 	.tags {
-		display: flex;
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
 		gap: 0.5rem;
 	}
 
@@ -148,5 +149,10 @@ const { Content } = await entry.render();
 		.content :global(blockquote) {
 			font-size: var(--text-2xl);
 		}
+
+		.tags {
+		display: flex;
+		gap: 0.5rem;
+	}
 	}
 </style>
